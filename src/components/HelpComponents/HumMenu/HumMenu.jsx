@@ -3,7 +3,7 @@ import { CloseIcon } from "./CloseIcon";
 
 export const HumMenu = ({ onClick, handleMenu }) => {
   return (
-    <div className="absolute top-0 right-0 ease-in duration-100 flex-col w-[90%] h-screen p-5 bg-white dark:bg-black dark:text-white">
+    <div className="absolute top-0 right-0 ease-in duration-600 flex-col w-[90%] h-screen p-5 bg-white dark:bg-black dark:text-white">
       <div className="flex justify-between">
         <div className="flex justify-self-start text-[50px] leading-9 not-italic font-bold tracking-[-0.6px] mr-10 dark:text-[#F9FAFB] pb-5">
           Saruul

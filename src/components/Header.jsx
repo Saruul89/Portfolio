@@ -45,8 +45,8 @@ export const Header = () => {
               </button>
             </div>
           </div>
-          <div className="block md:hidden">
-            <div>
+          <div className="block md:hidden ">
+            <div className="ease-in duration-700">
               {isOpenMenu ? (
                 <button onClick={handleMenu}>
                   <HumMenu />
